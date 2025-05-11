@@ -30,8 +30,8 @@ public class CreateBnB {
     public static final String MOD_ID = "create_bnb";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(MOD_ID);
-
+    public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(MOD_ID)
+            .defaultCreativeTab((ResourceKey<CreativeModeTab>) null);
 
     public CreateBnB(IEventBus modEventBus, ModContainer modContainer) {
 

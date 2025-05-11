@@ -2,7 +2,8 @@
   "item.create_bnb.sweet_berries_juice_bottle": "Sweet Berries Juice Bottle",
   "item.create_bnb.sweet_berries_juice_bucket": "Sweet Berries Juice Bucket",
 
-  "block.zloymod.###": "",
+  "block.create_bnb.###": "",
+  "fluid.create_bnb.sweet_berries_juice": "Sweet Berries Juice",
 
 
   "creativetab.create_bnb.create_bnb": "Create: Bakes 'n' Brews"

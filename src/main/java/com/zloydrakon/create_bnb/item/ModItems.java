@@ -10,10 +10,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CreateBnB.MOD_ID);
     public static final DeferredItem<Item> SWEET_BERRIES_JUICE_BOTTLE = ITEMS.register("sweet_berries_juice_bottle",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SWEET_BERRIES_JUICE_BOTTLE)));
 
-//    public static final DeferredItem<Item> SWEET_BERRIES_JUICE_BUCKET = ITEMS.register("sweet_berries_juice_bucket",
-//            () -> new Item(new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

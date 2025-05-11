@@ -5,13 +5,19 @@ import com.simibubi.create.content.fluids.VirtualFluid;
 import com.simibubi.create.infrastructure.config.AllConfigs;
 import com.tterrag.registrate.builders.FluidBuilder;
 import com.tterrag.registrate.util.entry.FluidEntry;
+import com.zloydrakon.create_bnb.item.ModCreativeModeTabs;
 import net.createmod.catnip.theme.Color;
 import net.minecraft.core.BlockPos;
+
 import net.minecraft.resources.ResourceLocation;
+
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.world.level.material.FluidState;
+
 import net.neoforged.neoforge.fluids.BaseFlowingFluid;
 import net.neoforged.neoforge.fluids.FluidStack;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import org.joml.Vector3f;
 
 
@@ -21,9 +27,13 @@ import static com.zloydrakon.create_bnb.CreateBnB.REGISTRATE;
 
 public class CreateBnBFluids {
 
+    static {
+        REGISTRATE.setCreativeTab(ModCreativeModeTabs.CREATE_BNB);
+    }
+
     public static final FluidEntry<BaseFlowingFluid.Flowing> SWEET_BERRIES_JUICE =
             REGISTRATE.standardFluid("sweet_berries_juice",
-                            SolidRenderedPlaceableFluidType.create(0x9E4B1F,
+                            SolidRenderedPlaceableFluidType.create(0x9D0804,
                                     () -> 1f / 32f * AllConfigs.client().chocolateTransparencyMultiplier.getF()))
                     .properties(b -> b.viscosity(1500)
                             .density(1400))
