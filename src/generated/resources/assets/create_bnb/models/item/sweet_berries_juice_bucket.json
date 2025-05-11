@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "create_bnb:item/sweet_berries_juice_bucket"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "create_bnb:fluid/sweet_berries_juice_flow"
+    },
+    {
+      "type": "single",
+      "resource": "create_bnb:fluid/sweet_berries_juice_still"
+    }
+  ]
+}
