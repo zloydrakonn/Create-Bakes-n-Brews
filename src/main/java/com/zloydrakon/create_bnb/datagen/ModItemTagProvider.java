@@ -1,7 +1,6 @@
 package com.zloydrakon.create_bnb.datagen;
 
 import com.zloydrakon.create_bnb.CreateBnB;
-// import com.zloydrakon.create_bnb.ModTags;
 import com.zloydrakon.create_bnb.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -21,8 +20,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        tag(Tags.Items.FOODS)
-                .add(ModItems.SWEET_BERRIES_JUICE_BOTTLE.get());
+        tag(Tags.Items.FOODS_BERRY)
+                .add(ModItems.SWEET_BERRIES_JUICE_BOTTLE.get())
+                .add(ModItems.SWEET_BERRIES_ROLL.get());
+        tag(Tags.Items.FOODS_BREAD)
+                .add(ModItems.PELMENI.get())
+                .add(ModItems.VARENYKY.get());
+
 
     }
 }

@@ -1,6 +1,7 @@
 package com.zloydrakon.create_bnb.datagen;
 
 import com.zloydrakon.create_bnb.CreateBnB;
+import com.zloydrakon.create_bnb.fluids.CreateBnBFluids;
 import com.zloydrakon.create_bnb.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
@@ -14,7 +15,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.SWEET_BERRIES_JUICE_BOTTLE.get());
-//        basicItem(ModItems.SWEET_BERRIES_JUICE_BUCKET.get());
+        basicItem(ModItems.SWEET_BERRIES_ROLL.get());
+        basicItem(ModItems.VARENYKY.get());
+        basicItem(ModItems.PELMENI.get());
+        basicItem(CreateBnBFluids.SWEET_BERRIES_JUICE.get().getBucket());
 
     }
 }

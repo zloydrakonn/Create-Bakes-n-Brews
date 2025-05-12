@@ -1,6 +1,9 @@
 {
   "item.create_bnb.sweet_berries_juice_bottle": "Sweet Berries Juice Bottle",
   "item.create_bnb.sweet_berries_juice_bucket": "Sweet Berries Juice Bucket",
+  "item.create_bnb.sweet_berries_roll": "Sweet Berries Roll",
+  "item.create_bnb.pelmeni": "Pelmeni",
+  "item.create_bnb.varenyky": "Varenyky",
 
   "block.create_bnb.###": "",
   "fluid.create_bnb.sweet_berries_juice": "Sweet Berries Juice",

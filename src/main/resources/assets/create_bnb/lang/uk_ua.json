@@ -1,6 +1,9 @@
 {
   "item.create_bnb.sweet_berries_juice_bottle": "Пляшка соку з солодких ягід",
   "item.create_bnb.sweet_berries_juice_bucket": "Відро соку з солодких ягід",
+  "item.create_bnb.sweet_berries_roll": "Рулет з солодкими ягодами",
+  "item.create_bnb.pelmeni": "Пельмені",
+  "item.create_bnb.varenyky": "Вареники",
 
   "block.create_bnb.###": "",
   "fluid.create_bnb.sweet_berries_juice": "Сік з солодких ягід",

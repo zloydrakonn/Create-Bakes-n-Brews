@@ -32,6 +32,9 @@ public class ModCreativeModeTabs {
         @Override
         public void accept(CreativeModeTab.@NotNull ItemDisplayParameters parameters, CreativeModeTab.@NotNull Output output) {
             output.accept(ModItems.SWEET_BERRIES_JUICE_BOTTLE);
+            output.accept(ModItems.SWEET_BERRIES_ROLL);
+            output.accept(ModItems.VARENYKY);
+            output.accept(ModItems.PELMENI);
             output.accept(CreateBnBFluids.SWEET_BERRIES_JUICE.get().getBucket());
         }
     }
