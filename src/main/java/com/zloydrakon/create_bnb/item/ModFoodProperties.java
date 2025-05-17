@@ -12,7 +12,7 @@ public class ModFoodProperties {
             .nutrition(4)
             .saturationModifier(0.5f)
             .usingConvertsTo(Items.GLASS_BOTTLE)
-            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 200), 1)
+            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 100), 1)
             .build();
 
 
@@ -20,7 +20,15 @@ public class ModFoodProperties {
             .Builder()
             .nutrition(4)
             .saturationModifier(0.5f)
-            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 100), 1)
+            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 200), 1)
+            .build();
+
+
+    public static final FoodProperties BAR_OF_CHOCOLATE_WITH_BERRIES = new FoodProperties
+            .Builder()
+            .nutrition(7)
+            .saturationModifier(0.5f)
+            .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 300), 1)
             .build();
 
 

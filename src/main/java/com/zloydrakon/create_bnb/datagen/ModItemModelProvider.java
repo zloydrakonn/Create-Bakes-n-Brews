@@ -16,6 +16,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ModItems.SWEET_BERRIES_JUICE_BOTTLE.get());
         basicItem(ModItems.SWEET_BERRIES_ROLL.get());
+        basicItem(ModItems.BAR_OF_CHOCOLATE_WITH_BERRIES.get());
         basicItem(ModItems.VARENYKY.get());
         basicItem(ModItems.PELMENI.get());
         basicItem(CreateBnBFluids.SWEET_BERRIES_JUICE.get().getBucket());

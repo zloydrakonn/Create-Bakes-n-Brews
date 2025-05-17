@@ -22,7 +22,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(Tags.Items.FOODS_BERRY)
                 .add(ModItems.SWEET_BERRIES_JUICE_BOTTLE.get())
-                .add(ModItems.SWEET_BERRIES_ROLL.get());
+                .add(ModItems.SWEET_BERRIES_ROLL.get())
+                .add(ModItems.BAR_OF_CHOCOLATE_WITH_BERRIES.get());
         tag(Tags.Items.FOODS_BREAD)
                 .add(ModItems.PELMENI.get())
                 .add(ModItems.VARENYKY.get());

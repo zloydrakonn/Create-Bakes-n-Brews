@@ -40,7 +40,6 @@ public class CreateBnB {
 
         CreateBnBFluids.register();
 
-
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
 
