@@ -1,6 +1,8 @@
 package com.zloydrakon.create_bnb.item;
 
 import com.zloydrakon.create_bnb.CreateBnB;
+import net.minecraft.world.food.Foods;
+import net.minecraft.world.item.HoneyBottleItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;

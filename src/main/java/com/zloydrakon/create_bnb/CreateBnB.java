@@ -4,7 +4,7 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.zloydrakon.create_bnb.fluids.CreateBnBFluids;
 import com.zloydrakon.create_bnb.item.ModCreativeModeTabs;
 import com.zloydrakon.create_bnb.item.ModItems;
-import net.minecraft.client.Minecraft;
+
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
 import org.slf4j.Logger;
@@ -21,10 +21,9 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-// The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(CreateBnB.MOD_ID)
 public class CreateBnB {
     public static final String MOD_ID = "create_bnb";
@@ -56,6 +55,7 @@ public class CreateBnB {
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
+        LOGGER.info("HELLO FROM CREATE BAKES N BREWS");
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
@@ -65,7 +65,7 @@ public class CreateBnB {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            LOGGER.info("HELLO FROM CREATE BAKES N BREWS SETUP");
+            LOGGER.info("HELLO FROM CREATE BAKES N BREWS");
         }
     }
 }

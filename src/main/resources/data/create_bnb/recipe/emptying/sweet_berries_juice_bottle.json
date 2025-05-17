@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "create_bnb:sweet_berries_juice_bottle"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "create_bnb:sweet_berries_juice"
+    },
+    {
+      "id": "minecraft:glass_bottle"
+    }
+  ]
+}
