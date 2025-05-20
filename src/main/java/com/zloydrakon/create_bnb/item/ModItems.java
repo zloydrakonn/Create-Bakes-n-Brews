@@ -10,7 +10,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(CreateBnB.MOD_ID);
 
-    public static final DeferredItem<Item> SWEET_BERRIES_JUICE_BOTTLE = ITEMS.register("sweet_berries_juice_bottle",
+    public static final DeferredItem<Item> SWEET_BERRIES_JUICE_BOTTLE = ITEMS.register("sweet_berries_juice_bottle", // TODO: make drink sound
             () -> new Item(new Item.Properties()
                     .stacksTo(16)
                     .food(ModFoodProperties.SWEET_BERRIES_JUICE_BOTTLE)));
@@ -23,11 +23,11 @@ public class ModItems {
 
 
 
-    public static final DeferredItem<Item> PELMENI_WITH_PORKCHOP = ITEMS.register("pelmeni_with_porkchop",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.PELMENI_WITH_PORKCHOP)));
+    public static final DeferredItem<Item> PELMEN_WITH_PORKCHOP = ITEMS.register("pelmen_with_porkchop",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.PELMEN_WITH_PORKCHOP)));
 
-    public static final DeferredItem<Item> PELMENI_WITH_BEEF = ITEMS.register("pelmeni_with_beef",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.PELMENI_WITH_BEEF)));
+    public static final DeferredItem<Item> PELMEN_WITH_BEEF = ITEMS.register("pelmen_with_beef",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.PELMEN_WITH_BEEF)));
 
 
 

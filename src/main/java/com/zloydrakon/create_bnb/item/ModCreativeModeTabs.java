@@ -36,8 +36,8 @@ public class ModCreativeModeTabs {
             output.accept(ModItems.BAR_OF_CHOCOLATE_WITH_BERRIES);
             output.accept(CreateBnBFluids.SWEET_BERRIES_JUICE.get().getBucket());
 
-            output.accept(ModItems.PELMENI_WITH_PORKCHOP);
-            output.accept(ModItems.PELMENI_WITH_BEEF);
+            output.accept(ModItems.PELMEN_WITH_PORKCHOP);
+            output.accept(ModItems.PELMEN_WITH_BEEF);
 
             output.accept(ModItems.VARENYK_WITH_PORKCHOP);
             output.accept(ModItems.VARENYK_WITH_BEEF);

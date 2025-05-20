@@ -5,12 +5,12 @@
       "item": "create:dough"
     },
     {
-      "item": "minecraft:beef"
+      "item": "minecraft:raw_porkchop"
     }
   ],
   "results": [
     {
-      "id": "create_bnb:pelmeni_with_beef"
+      "id": "create_bnb:pelmen_with_porkchop"
     }
   ]
 }

@@ -19,8 +19,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BAR_OF_CHOCOLATE_WITH_BERRIES.get());
         basicItem(CreateBnBFluids.SWEET_BERRIES_JUICE.get().getBucket());
 
-        basicItem(ModItems.PELMENI_WITH_PORKCHOP.get());
-        basicItem(ModItems.PELMENI_WITH_BEEF.get());
+        basicItem(ModItems.PELMEN_WITH_PORKCHOP.get());
+        basicItem(ModItems.PELMEN_WITH_BEEF.get());
 
         basicItem(ModItems.VARENYK_WITH_PORKCHOP.get());
         basicItem(ModItems.VARENYK_WITH_POTATO.get());

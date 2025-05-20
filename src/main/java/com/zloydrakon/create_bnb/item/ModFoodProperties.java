@@ -33,14 +33,14 @@ public class ModFoodProperties {
 
 
 
-    public static final FoodProperties PELMENI_WITH_PORKCHOP = new FoodProperties
+    public static final FoodProperties PELMEN_WITH_PORKCHOP = new FoodProperties
             .Builder()
             .nutrition(6)
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200), 1)
             .saturationModifier(0.6f)
             .build();
 
-    public static final FoodProperties PELMENI_WITH_BEEF = new FoodProperties
+    public static final FoodProperties PELMEN_WITH_BEEF = new FoodProperties
             .Builder()
             .nutrition(6)
             .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 200), 1)

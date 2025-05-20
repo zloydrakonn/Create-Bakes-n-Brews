@@ -26,8 +26,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.BAR_OF_CHOCOLATE_WITH_BERRIES.get());
 
         tag(Tags.Items.FOODS_BREAD)
-                .add(ModItems.PELMENI_WITH_PORKCHOP.get())
-                .add(ModItems.PELMENI_WITH_BEEF.get())
+                .add(ModItems.PELMEN_WITH_PORKCHOP.get())
+                .add(ModItems.PELMEN_WITH_BEEF.get())
 
                 .add(ModItems.VARENYK_WITH_PORKCHOP.get())
                 .add(ModItems.VARENYK_WITH_BEEF.get())
