@@ -1,0 +1,17 @@
+{
+  "item.create_bnb.sweet_berries_juice_bottle": "Botella de Zumo de Bayas Dulces",
+  "item.create_bnb.sweet_berries_juice_bucket": "Cubo de Zumo de Bayas Dulces",
+  "item.create_bnb.sweet_berries_roll": "Rollo de Bayas Dulces",
+  "item.create_bnb.bar_of_chocolate_with_berries": "Tableta de Chocolate con Bayas",
+
+  "item.create_bnb.pelmeni_with_porkchop": "Pelmeni con Chuleta de Cerdo",
+  "item.create_bnb.pelmeni_with_beef": "Pelmeni con Carne de Res",
+  "item.create_bnb.varenyk_with_porkchop": "Varenyk con Chuleta de Cerdo",
+  "item.create_bnb.varenyk_with_beef": "Varenyk con Carne de Res",
+  "item.create_bnb.varenyk_with_potato": "Varenyk con Patata",
+
+  "block.create_bnb.###": "",
+  "fluid.create_bnb.sweet_berries_juice": "Zumo de Bayas Dulces",
+
+  "creativetab.create_bnb.create_bnb": "Create: Bakes 'n' Brews"
+}

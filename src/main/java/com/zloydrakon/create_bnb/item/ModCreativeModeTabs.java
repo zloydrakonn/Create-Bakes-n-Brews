@@ -34,9 +34,14 @@ public class ModCreativeModeTabs {
             output.accept(ModItems.SWEET_BERRIES_JUICE_BOTTLE);
             output.accept(ModItems.SWEET_BERRIES_ROLL);
             output.accept(ModItems.BAR_OF_CHOCOLATE_WITH_BERRIES);
-            output.accept(ModItems.VARENYKY);
-            output.accept(ModItems.PELMENI);
             output.accept(CreateBnBFluids.SWEET_BERRIES_JUICE.get().getBucket());
+
+            output.accept(ModItems.PELMENI_WITH_PORKCHOP);
+            output.accept(ModItems.PELMENI_WITH_BEEF);
+
+            output.accept(ModItems.VARENYK_WITH_PORKCHOP);
+            output.accept(ModItems.VARENYK_WITH_BEEF);
+            output.accept(ModItems.VARENYK_WITH_POTATO);
         }
     }
 }

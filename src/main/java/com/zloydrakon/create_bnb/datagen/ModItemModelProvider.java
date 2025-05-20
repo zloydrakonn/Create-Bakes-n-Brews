@@ -17,9 +17,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.SWEET_BERRIES_JUICE_BOTTLE.get());
         basicItem(ModItems.SWEET_BERRIES_ROLL.get());
         basicItem(ModItems.BAR_OF_CHOCOLATE_WITH_BERRIES.get());
-        basicItem(ModItems.VARENYKY.get());
-        basicItem(ModItems.PELMENI.get());
         basicItem(CreateBnBFluids.SWEET_BERRIES_JUICE.get().getBucket());
 
+        basicItem(ModItems.PELMENI_WITH_PORKCHOP.get());
+        basicItem(ModItems.PELMENI_WITH_BEEF.get());
+
+        basicItem(ModItems.VARENYK_WITH_PORKCHOP.get());
+        basicItem(ModItems.VARENYK_WITH_POTATO.get());
+        basicItem(ModItems.VARENYK_WITH_BEEF.get());
     }
 }

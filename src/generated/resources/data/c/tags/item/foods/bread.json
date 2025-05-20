@@ -1,6 +1,9 @@
 {
   "values": [
-    "create_bnb:pelmeni",
-    "create_bnb:varenyky"
+    "create_bnb:pelmeni_with_porkchop",
+    "create_bnb:pelmeni_with_beef",
+    "create_bnb:varenyk_with_porkchop",
+    "create_bnb:varenyk_with_beef",
+    "create_bnb:varenyk_with_potato"
   ]
 }

@@ -1,11 +1,14 @@
 {
-  "item.create_bnb.sweet_berries_juice_bottle": "Пляшка соку з солодких ягід",
-  "item.create_bnb.sweet_berries_juice_bucket": "Відро соку з солодких ягід",
-  "item.create_bnb.sweet_berries_roll": "Рулет з солодкими ягодами",
+  "item.create_bnb.sweet_berries_juice_bottle": "Пляшка соку солодких ягід",
+  "item.create_bnb.sweet_berries_juice_bucket": "Відро соку солодких ягід",
+  "item.create_bnb.sweet_berries_roll": "Рулет із солодкими ягодами",
   "item.create_bnb.bar_of_chocolate_with_berries": "Плитка шоколаду з ягодами",
 
-  "item.create_bnb.pelmeni": "Пельмені",
-  "item.create_bnb.varenyky": "Вареники",
+  "item.create_bnb.pelmeni_with_porkchop": "Пельмені зі свининою",
+  "item.create_bnb.pelmeni_with_beef": "Пельмені з яловичиною",
+  "item.create_bnb.varenyk_with_porkchop": "Вареник зі свининою",
+  "item.create_bnb.varenyk_with_beef": "Вареник з яловичиною",
+  "item.create_bnb.varenyk_with_potato": "Вареник з картоплею",
 
   "block.create_bnb.###": "",
   "fluid.create_bnb.sweet_berries_juice": "Сік з солодких ягід",

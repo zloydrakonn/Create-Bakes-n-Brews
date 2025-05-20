@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:dough"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_bnb:varenyky_with_porkchop"
+    }
+  ]
+}

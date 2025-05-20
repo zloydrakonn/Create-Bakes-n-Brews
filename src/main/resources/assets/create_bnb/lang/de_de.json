@@ -1,0 +1,17 @@
+{
+  "item.create_bnb.sweet_berries_juice_bottle": "Flasche Süßbeeren-Saft",
+  "item.create_bnb.sweet_berries_juice_bucket": "Eimer Süßbeeren-Saft",
+  "item.create_bnb.sweet_berries_roll": "Süßbeeren-Rolle",
+  "item.create_bnb.bar_of_chocolate_with_berries": "Schokoladentafel mit Beeren",
+
+  "item.create_bnb.pelmeni_with_porkchop": "Pelmeni mit Schweinefleischkotelett",
+  "item.create_bnb.pelmeni_with_beef": "Pelmeni mit Rindfleisch",
+  "item.create_bnb.varenyk_with_porkchop": "Warenik mit Schweinefleischkotelett",
+  "item.create_bnb.varenyk_with_beef": "Warenik mit Rindfleisch",
+  "item.create_bnb.varenyk_with_potato": "Warenik mit Kartoffel",
+
+  "block.create_bnb.###": "",
+  "fluid.create_bnb.sweet_berries_juice": "Süßbeeren-Saft",
+
+  "creativetab.create_bnb.create_bnb": "Create: Bakes 'n' Brews"
+}

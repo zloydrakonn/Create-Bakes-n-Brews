@@ -24,9 +24,14 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.SWEET_BERRIES_JUICE_BOTTLE.get())
                 .add(ModItems.SWEET_BERRIES_ROLL.get())
                 .add(ModItems.BAR_OF_CHOCOLATE_WITH_BERRIES.get());
+
         tag(Tags.Items.FOODS_BREAD)
-                .add(ModItems.PELMENI.get())
-                .add(ModItems.VARENYKY.get());
+                .add(ModItems.PELMENI_WITH_PORKCHOP.get())
+                .add(ModItems.PELMENI_WITH_BEEF.get())
+
+                .add(ModItems.VARENYK_WITH_PORKCHOP.get())
+                .add(ModItems.VARENYK_WITH_BEEF.get())
+                .add(ModItems.VARENYK_WITH_POTATO.get());
 
 
     }

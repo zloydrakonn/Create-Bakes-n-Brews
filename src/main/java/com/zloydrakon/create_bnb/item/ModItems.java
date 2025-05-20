@@ -22,11 +22,23 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.BAR_OF_CHOCOLATE_WITH_BERRIES)));
 
 
-    public static final DeferredItem<Item> VARENYKY = ITEMS.register("varenyky",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.VARENYKY)));
 
-    public static final DeferredItem<Item> PELMENI = ITEMS.register("pelmeni",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.PELMENI)));
+    public static final DeferredItem<Item> PELMENI_WITH_PORKCHOP = ITEMS.register("pelmeni_with_porkchop",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.PELMENI_WITH_PORKCHOP)));
+
+    public static final DeferredItem<Item> PELMENI_WITH_BEEF = ITEMS.register("pelmeni_with_beef",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.PELMENI_WITH_BEEF)));
+
+
+
+    public static final DeferredItem<Item> VARENYK_WITH_PORKCHOP = ITEMS.register("varenyk_with_porkchop",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.VARENYK_WITH_PORKCHOP)));
+
+    public static final DeferredItem<Item> VARENYK_WITH_BEEF = ITEMS.register("varenyk_with_beef",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.VARENYK_WITH_BEEF)));
+
+    public static final DeferredItem<Item> VARENYK_WITH_POTATO = ITEMS.register("varenyk_with_potato",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.VARENYK_WITH_POTATO)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

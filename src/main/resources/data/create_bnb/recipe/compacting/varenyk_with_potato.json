@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:dough"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_bnb:varenyky_with_potato"
+    }
+  ]
+}

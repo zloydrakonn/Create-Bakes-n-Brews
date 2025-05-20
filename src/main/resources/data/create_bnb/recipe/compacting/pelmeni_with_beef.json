@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:dough"
+    },
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_bnb:pelmeni_with_beef"
+    }
+  ]
+}
