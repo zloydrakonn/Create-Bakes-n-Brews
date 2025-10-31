@@ -48,21 +48,6 @@ public class ModFoodProperties {
             .build();
 
 
-
-    public static final FoodProperties VARENYK_WITH_PORKCHOP = new FoodProperties
-            .Builder()
-            .nutrition(6)
-            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 200), 1)
-            .saturationModifier(0.6f)
-            .build();
-
-    public static final FoodProperties VARENYK_WITH_BEEF = new FoodProperties
-            .Builder()
-            .nutrition(6)
-            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 200), 1)
-            .saturationModifier(0.6f)
-            .build();
-
     public static final FoodProperties VARENYK_WITH_POTATO = new FoodProperties
             .Builder()
             .nutrition(6)

@@ -2,6 +2,7 @@ package com.zloydrakon.create_bnb.datagen;
 
 import com.zloydrakon.create_bnb.CreateBnB;
 //import com.zloydrakon.create_bnb.block.ModBlocks;
+import com.zloydrakon.create_bnb.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -18,14 +19,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-//        tag(BlockTags.MINEABLE_WITH_PICKAXE)
-//                .add(ModBlocks.STEEL_BLOCK.get())
+        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.MOLDING_MACHINE.get());
 //                .add(ModBlocks.STEEL_ORE.get())
 //                .add(ModBlocks.DEEPSLATE_STEEL_ORE.get())
 //                .add(ModBlocks.TERMINAL.get());
 //                // .add(ModBlocks.TERMINAL.get())
-//        tag(BlockTags.NEEDS_IRON_TOOL)
-//                .add(ModBlocks.STEEL_BLOCK.get())
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.MOLDING_MACHINE.get());
 //                .add(ModBlocks.STEEL_ORE.get())
 //                .add(ModBlocks.DEEPSLATE_STEEL_ORE.get())
 //                .add(ModBlocks.TERMINAL.get());

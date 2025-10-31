@@ -2,6 +2,7 @@ package com.zloydrakon.create_bnb.datagen;
 
 import com.zloydrakon.create_bnb.CreateBnB;
 // import com.zloydrakon.create_bnb.block.ModBlocks;
+import com.zloydrakon.create_bnb.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -14,7 +15,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-//        blockWithItem(ModBlocks.STEEL_BLOCK);
+        blockWithItem(ModBlocks.MOLDING_MACHINE);
 //        blockWithItem(ModBlocks.STEEL_ORE);
 //        blockWithItem(ModBlocks.DEEPSLATE_STEEL_ORE);
 

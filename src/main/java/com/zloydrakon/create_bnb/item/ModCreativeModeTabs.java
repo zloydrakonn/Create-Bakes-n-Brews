@@ -1,6 +1,7 @@
 package com.zloydrakon.create_bnb.item;
 
 import com.zloydrakon.create_bnb.CreateBnB;
+import com.zloydrakon.create_bnb.block.ModBlocks;
 import com.zloydrakon.create_bnb.fluids.CreateBnBFluids;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -36,11 +37,12 @@ public class ModCreativeModeTabs {
             output.accept(ModItems.BAR_OF_CHOCOLATE_WITH_BERRIES);
             output.accept(CreateBnBFluids.SWEET_BERRIES_JUICE.get().getBucket());
 
+            output.accept(ModItems.DOUGH_BASE);
+            output.accept(ModBlocks.MOLDING_MACHINE);
+
             output.accept(ModItems.PELMEN_WITH_PORKCHOP);
             output.accept(ModItems.PELMEN_WITH_BEEF);
 
-            output.accept(ModItems.VARENYK_WITH_PORKCHOP);
-            output.accept(ModItems.VARENYK_WITH_BEEF);
             output.accept(ModItems.VARENYK_WITH_POTATO);
         }
     }

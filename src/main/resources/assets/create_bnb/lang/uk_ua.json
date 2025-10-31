@@ -9,10 +9,10 @@
   "item.create_bnb.varenyk_with_porkchop": "Вареник зі свининою",
   "item.create_bnb.varenyk_with_beef": "Вареник з яловичиною",
   "item.create_bnb.varenyk_with_potato": "Вареник з картоплею",
+  "item.create_bnb.dough_base": "Тістова основа",
 
-  "block.create_bnb.###": "",
+  "block.create_bnb.molding_machine": "Формувальна машина",
   "fluid.create_bnb.sweet_berries_juice": "Сік з солодких ягід",
-
 
   "creativetab.create_bnb.create_bnb": "Create: Bakes 'n' Brews"
 }

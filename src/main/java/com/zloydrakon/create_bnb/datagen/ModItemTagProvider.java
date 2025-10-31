@@ -1,6 +1,8 @@
 package com.zloydrakon.create_bnb.datagen;
 
+import com.simibubi.create.AllTags;
 import com.zloydrakon.create_bnb.CreateBnB;
+import com.zloydrakon.create_bnb.block.ModBlocks;
 import com.zloydrakon.create_bnb.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -29,8 +31,6 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.PELMEN_WITH_PORKCHOP.get())
                 .add(ModItems.PELMEN_WITH_BEEF.get())
 
-                .add(ModItems.VARENYK_WITH_PORKCHOP.get())
-                .add(ModItems.VARENYK_WITH_BEEF.get())
                 .add(ModItems.VARENYK_WITH_POTATO.get());
 
 
