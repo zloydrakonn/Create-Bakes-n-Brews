@@ -9,9 +9,11 @@
   "item.create_bnb.varenyk_with_porkchop": "Varenyk con Chuleta de Cerdo",
   "item.create_bnb.varenyk_with_beef": "Varenyk con Carne de Res",
   "item.create_bnb.varenyk_with_potato": "Varenyk con Patata",
+  "item.create_bnb.dough_base": "",
 
-  "block.create_bnb.###": "",
+  "block.create_bnb.molding_machine": "Máquina de Conformado",
   "fluid.create_bnb.sweet_berries_juice": "Zumo de Bayas Dulces",
 
   "creativetab.create_bnb.create_bnb": "Create: Bakes 'n' Brews"
+
 }

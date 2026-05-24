@@ -9,8 +9,9 @@
   "item.create_bnb.varenyk_with_porkchop": "Warenik mit Schweinefleischkotelett",
   "item.create_bnb.varenyk_with_beef": "Warenik mit Rindfleisch",
   "item.create_bnb.varenyk_with_potato": "Warenik mit Kartoffel",
+  "item.create_bnb.dough_base": "",
 
-  "block.create_bnb.###": "",
+  "block.create_bnb.molding_machine": "Formmaschine",
   "fluid.create_bnb.sweet_berries_juice": "Süßbeeren-Saft",
 
   "creativetab.create_bnb.create_bnb": "Create: Bakes 'n' Brews"

@@ -1,7 +1,6 @@
 package com.zloydrakon.create_bnb.datagen;
 
-//import com.zloydrakon.create_bnb.block.ModBlocks;
-import com.zloydrakon.create_bnb.item.ModItems;
+import com.zloydrakon.create_bnb.block.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
@@ -17,18 +16,16 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     //@Override
     protected void generate() {
-//        dropSelf(ModBlocks.STEEL_BLOCK.get());
+        dropSelf(ModBlocks.MOLDING_MACHINE.get());
 //        dropSelf(ModBlocks.TERMINAL.get());
 //        add(ModBlocks.STEEL_ORE.get(),
 //                block -> createOreDrop(ModBlocks.STEEL_ORE.get(), ModItems.RAW_STEEL.get()));
 //        add(ModBlocks.DEEPSLATE_STEEL_ORE.get(),
 //                block -> createOreDrop(ModBlocks.STEEL_ORE.get(), ModItems.RAW_STEEL.get()));;
+    }
 
+    @Override
+    protected Iterable<Block> getKnownBlocks() {
+        return ModBlocks.BLOCKS.getEntries().stream().map(Holder::value)::iterator;
     }
 }
-
-//    @Override
-//    protected Iterable<Block> getKnownBlocks() {
-//        return ModBlocks.BLOCKS.getEntries().stream().map(Holder::value)::iterator;
-//    }
-//}

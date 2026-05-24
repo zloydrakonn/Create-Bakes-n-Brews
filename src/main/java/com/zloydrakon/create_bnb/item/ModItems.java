@@ -22,6 +22,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.BAR_OF_CHOCOLATE_WITH_BERRIES)));
 
 
+    public static final DeferredItem<Item> DOUGH_BASE = ITEMS.register("dough_base",
+            () -> new Item(new Item.Properties()));
+
 
     public static final DeferredItem<Item> PELMEN_WITH_PORKCHOP = ITEMS.register("pelmen_with_porkchop",
             () -> new Item(new Item.Properties().food(ModFoodProperties.PELMEN_WITH_PORKCHOP)));
@@ -29,13 +32,6 @@ public class ModItems {
     public static final DeferredItem<Item> PELMEN_WITH_BEEF = ITEMS.register("pelmen_with_beef",
             () -> new Item(new Item.Properties().food(ModFoodProperties.PELMEN_WITH_BEEF)));
 
-
-
-    public static final DeferredItem<Item> VARENYK_WITH_PORKCHOP = ITEMS.register("varenyk_with_porkchop",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.VARENYK_WITH_PORKCHOP)));
-
-    public static final DeferredItem<Item> VARENYK_WITH_BEEF = ITEMS.register("varenyk_with_beef",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.VARENYK_WITH_BEEF)));
 
     public static final DeferredItem<Item> VARENYK_WITH_POTATO = ITEMS.register("varenyk_with_potato",
             () -> new Item(new Item.Properties().food(ModFoodProperties.VARENYK_WITH_POTATO)));

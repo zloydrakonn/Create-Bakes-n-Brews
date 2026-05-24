@@ -22,10 +22,10 @@ public class Config
 
     static final ModConfigSpec SPEC = BUILDER.build();
 
-    public static boolean logDirtBlock;
-    public static int magicNumber;
-    public static String magicNumberIntroduction;
-    public static Set<Item> items;
+//    public static boolean logDirtBlock;
+//    public static int magicNumber;
+//    public static String magicNumberIntroduction;
+//    public static Set<Item> items;
 
     private static boolean validateItemName(final Object obj)
     {

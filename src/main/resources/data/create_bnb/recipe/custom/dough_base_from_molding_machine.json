@@ -1,0 +1,9 @@
+{
+  "type": "create_bnb:molding_machine",
+  "ingredient": {
+    "item": "create:dough"
+  },
+  "result": {
+    "id": "create_bnb:dough_base"
+  }
+}

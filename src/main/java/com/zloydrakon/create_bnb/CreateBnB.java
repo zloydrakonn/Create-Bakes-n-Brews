@@ -1,12 +1,19 @@
 package com.zloydrakon.create_bnb;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
+import com.zloydrakon.create_bnb.block.ModBlocks;
+import com.zloydrakon.create_bnb.block.custom.entity.ModBlockEntities;
+import com.zloydrakon.create_bnb.block.custom.entity.MoldingMachineBlockEntity;
 import com.zloydrakon.create_bnb.fluids.CreateBnBFluids;
 import com.zloydrakon.create_bnb.item.ModCreativeModeTabs;
 import com.zloydrakon.create_bnb.item.ModItems;
 
+import com.zloydrakon.create_bnb.recipe.ModRecipes;
+import com.zloydrakon.create_bnb.screen.ModMenuTypes;
+import com.zloydrakon.create_bnb.screen.custom.MoldingMachineScreen;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -39,14 +46,19 @@ public class CreateBnB {
         NeoForge.EVENT_BUS.register(this);
 
         CreateBnBFluids.register();
-
+        modEventBus.addListener(MoldingMachineBlockEntity::registerCapabilities);
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {}
+    private void commonSetup(final FMLCommonSetupEvent event) {
+    }
 
     // Add the example block item to the building blocks tab
 
@@ -59,12 +71,15 @@ public class CreateBnB {
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
+    public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
+        public static void onClientSetup(FMLClientSetupEvent event) {
             LOGGER.info("HELLO FROM CREATE BAKES N BREWS");
+        }
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenuTypes.MOLDING_MACHINE_MENU.get(), MoldingMachineScreen::new);
         }
     }
 }
